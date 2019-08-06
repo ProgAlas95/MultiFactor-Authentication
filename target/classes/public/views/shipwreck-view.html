@@ -1,0 +1,39 @@
+<div class="container pad-top">
+  <table class="table shipwrecktable">
+      <tr>
+          <td><h3>Ticket Details  for {{shipwreck.name}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Name</td>
+          <td>{{shipwreck.name}}</td>
+      </tr>
+      <tr>
+          <td>Departure</td>
+          <td>{{shipwreck.description}}</td>
+      </tr>
+      <tr>
+          <td>Destination</td>
+          <td>{{shipwreck.condition}}</td>
+      </tr>
+      <tr>
+          <td>ID Number</td>
+          <td>{{shipwreck.yearDiscovered}}</td>
+      </tr>
+      <tr>
+          <td>Phone Number</td>
+          <td>{{shipwreck.depth}}</td>
+      </tr>
+      <tr>
+          <td>Date</td>
+          <td>{{shipwreck.latitude}} </td>
+      </tr>
+       <tr>
+          <td>Amount Payed</td>
+          <td>{{shipwreck.longitude}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editShipwreck({id:shipwreck.id})">Edit Information</a>
+  </div>
+</div>
